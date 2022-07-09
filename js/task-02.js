@@ -19,6 +19,6 @@ const elementsItems = arrays => arrays.map(item => {
 const ingredientsItems = elementsItems(ingredients);
 listEl.append(...ingredientsItems);
 
-console.log(listEl)
+console.log(listEl);
 
 
