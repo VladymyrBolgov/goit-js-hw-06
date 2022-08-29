@@ -12,7 +12,7 @@ const images = [
     alt: 'Group of Horses Running',
   },
 ];
-/*
+
 const listEl = document.querySelector('.gallery');
 const creationGallery = list => {
   const line = list.map(({ url, alt}) => 
@@ -22,7 +22,6 @@ const creationGallery = list => {
   return listEl;
 }
 console.log(creationGallery(images));
-*/
 
 /**Напиши скрипт для создания галереи изображений 
  * по массиву данных. В HTML есть список ul.gallery.
@@ -36,4 +35,5 @@ console.log(creationGallery(images));
 в DOM за одну операцию вставки.
 2. Добавь минимальное оформление галереи
  флексбоксами или гридами через CSS классы. */
+
 
