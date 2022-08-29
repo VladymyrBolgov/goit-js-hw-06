@@ -12,21 +12,28 @@ const images = [
     alt: 'Group of Horses Running',
   },
 ];
+/*
 const listEl = document.querySelector('.gallery');
-const creationGalery = list => {
+const creationGallery = list => {
   const line = list.map(({ url, alt}) => 
   `<li class = "item"> <img class = "item-img" src= ${url} alt = ${alt}> </li>`)
     .join('')
   listEl.insertAdjacentHTML("beforeend", line)
   return listEl;
 }
-console.log(creationGalery(images));
+console.log(creationGallery(images));
+*/
 
-
-/**Напиши скрипт для создания галереи изображений по массиву данных. В HTML есть список ul.gallery.
+/**Напиши скрипт для создания галереи изображений 
+ * по массиву данных. В HTML есть список ul.gallery.
 
 <ul class="gallery"></ul>
-Используй массив объектов images для создания элементов <img> вложенных в <li>. Для создания разметки используй шаблонные строки и метод insertAdjacentHTML().
+Используй массив объектов images для создания 
+элементов <img> вложенных в <li>. Для создания 
+разметки используй шаблонные строки и метод insertAdjacentHTML().
 
-1. Все элементы галереи должны добавляться в DOM за одну операцию вставки.
-2. Добавь минимальное оформление галереи флексбоксами или гридами через CSS классы. */
+1. Все элементы галереи должны добавляться
+в DOM за одну операцию вставки.
+2. Добавь минимальное оформление галереи
+ флексбоксами или гридами через CSS классы. */
+
