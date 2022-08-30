@@ -1,4 +1,4 @@
-/*
+
     const decrementBtn = document.querySelector('[data-action="decrement"]')
     const incrementBtn = document.querySelector('[data-action="increment"]')
     const counterEl = document.querySelector('#value')
@@ -10,7 +10,7 @@
     incrementBtn.addEventListener('click', () => {
         counterEl.textContent = counterValue += 1;
     })
-*/
+
 /**Счетчик состоит из спана и кнопок, которые, 
  * при клике, должны увеличивать и уменьшать его
  *  значение на единицу.
