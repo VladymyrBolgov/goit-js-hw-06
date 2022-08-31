@@ -1,10 +1,10 @@
-const input = document.querySelector('#font-size-control')
+/*const input = document.querySelector('#font-size-control')
 const span = document.querySelector('#text')
 
 input.addEventListener('input', () => {
     span.style.fontSize = input.value + 'px'
 })
-
+*/
 
 /**Напиши скрипт, который реагирует на изменение 
  * значения input#font-size-control (событие input)
@@ -19,3 +19,4 @@ const fontSizeEl = () => {
     span.style.fontSize = input.value + 'px'
 }
 input.addEventListener('input', fontSizeEl)*/
+
