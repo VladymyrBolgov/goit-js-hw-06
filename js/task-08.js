@@ -1,23 +1,20 @@
+/*
 const form = document.querySelector('.login-form');
-
 const onFormSubmit = (event) => {
     event.preventDefault();
-    
+
     const email = event.target.email.value;
     const password = event.target.password.value;
-    
     if (email === '' || password === '') {
         alert('Пожалуйста, заполните все поля!')
     }
     console.log({ email, password })
-
     event.currentTarget.reset()
 }
 form.addEventListener("submit", onFormSubmit);
-
-
+*/
 /**Напиши скрипт управления формой логина.
-
+ * 
 1. Обработка отправки формы form.login-form должна быть по событию submit.
 2. При отправке формы страница не должна перезагружаться.
 3. Если в форме есть незаполненные поля, выводи alert с предупреждением о том, 
@@ -27,3 +24,4 @@ form.addEventListener("submit", onFormSubmit);
   свойства. Для доступа к элементам формы используй свойство elements.
 5. Выведи обьект с введенными данными в консоль и очисти значения полей 
 формы методом reset. */
+
